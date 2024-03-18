@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" Portal de notícias sobre passagens bíblicas estilo geek">
+    <meta name="keywords" content="mundo geek, geek, notícias geek, histórias bíblicas geek">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/icon_logo.png">
+
+    <title>Manuscript Geek</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="../img/logo.png" alt="Logo Manuscript Geek">
+        </div>
+        <nav>
+            <a href="index.html">
+                <div class="home">Home</div>
+            </a>
+            <a href="noticia1.html">
+                <div class="not1">Notícia 1</div>
+            </a>
+            <a href="noticia2.html">
+                <div class="not2">Notícia 2</div>
+            </a>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <section class="not_principais">
+                <a href="noticia1.html">
+                    <div class="noticia">
+                        <img src="../img/img1.jpg" alt="Dois homens sentados numa carroça lendo um pergaminho">
+                        <h3>A Jornada Épica: O Eunuco Etíope e o Encontro Divino nas Estradas da Fé</h3>
+                    </div>
+                </a>
+                <a href="noticia2.html">
+                    <div class="noticia">
+                        <img src="../img/img_not2.jpg" alt="Moisés abrindo o Mar Vermelho">
+                        <h3>O Despertar de uma Nação - Uma Odisséia através do Êxodo</h3>
+                    </div>
+                </a>
+            </section>
+            <section class="not_secundarias">
+                <div class="maislidas_titulo">
+                    <div class="maislidas">Mais Lidas</div>
+                    <div class="linha_separacao"></div>
+                </div>
+                <div class="noticia_sec">
+                    <div class="nots">
+                        <div class="titulo_nots">
+                            <h4>"Josué: O Guerreiro Divino - A Batalha Além das Muralhas de Jericó"</h4>
+                        </div>
+                        <div class="img_nots">
+                            <img src="../img/img_not3.jpg"
+                                alt="Homens guerreiros, homens tocando trombetas e muralhas caindo">
+                        </div>
+                    </div>
+                    <div class="nots">
+                        <div class="titulo_nots">
+                            <h4>"O Legado de José: Herói Contra a Fome - A Ascensão de um Governante"</h4>
+                        </div>
+                        <div class="img_nots">
+                            <img src="../img/img_not4.jpg" alt="Um homem egípcio desenhado estilo mangá">
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <div class="form">
+            <div class="formulario">
+                <h2>Compartilhe suas notícias também!</h2>
+                <form action="formulario.php" method="post">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu Email">
+                    <br>
+                    <label for="noticia">Envie sua notícia:</label>
+                    <input type="text" name="noticia" id="noticia" placeholder="Escreva sua notícia">
+                    <br>
+                    <input class="enviar" type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer_container">
+            <p class="direitos">© 2024 - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
